@@ -1,0 +1,25 @@
+{
+  "name": "aholi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "babel": "^6.23.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "graphql": "^15.8.0",
+    "graphql-compose": "^9.0.7",
+    "graphql-compose-mongoose": "^9.7.1",
+    "mongoose": "^6.2.7",
+    "pg": "^8.7.3",
+    "postgres": "^1.0.2"
+  }
+}
